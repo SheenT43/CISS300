@@ -24,7 +24,28 @@ nav {
     text-align: center;
 }
 
+nav a:link {
+    color: #5c7fa3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #021171;
+}
+
+nav a {
+    transition: color 0.5s ease-out;
+    text-decoration: none;
+}
+
 h2 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -53,4 +74,27 @@ h4 {
 }
 h5 {
     text-align: left;
+}
+table {
+    border: 2px solid #3399cc;
+    border-collapse: collapse;
+    padding: 8px;
+    border: 1px solid lightgray;
+    width: 100%;
+    box-shadow: #232d4c 0px 3px 8px;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399cc;
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    padding: 0.5em;
 }
