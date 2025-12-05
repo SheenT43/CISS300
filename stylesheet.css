@@ -1,0 +1,239 @@
+html, body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+	text-align: center;
+	border: #021171 5px solid;
+    border-radius: 40px;
+	text-shadow: 1px -1px px #a2baca;
+    background-color: #256e92;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body {
+	background-color: #030829;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+	color: #b4d0fa;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: left;
+}
+nav ul li {
+	text-align: center;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    border: #021171 5px solid;
+    border-radius: 40px;
+    background-color: #256e92;
+}
+nav {
+	text-align: center;
+}
+nav a:hover {
+	color: #030829;
+}
+nav a {
+	transition: color 0.5s ease-out;
+	text-decoration: none;
+    color: rgb(118, 172, 223);
+    text-shadow: #a2baca 1px -1px 2px;
+}
+section {
+	margin: 20px;
+	padding: 10px;
+    border: #021171 3px solid;
+    border-radius: 40px;
+    background-color: #05496b;
+}
+main {
+	padding: 1px 20px 20px 30px;
+	padding-left: 30px;
+}
+.breadhero {
+	height: 300px;
+	background-image: url('BreadSurvival_Logo.png');
+	background-repeat: no-repeat;
+	background-size: 10% 100%;
+	background-position: left;
+}
+.Blackjackhero {
+    height: 500px;
+	background-image: url('BlackjackLogo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50px;
+
+}
+.Roulletehero {
+	height: 500px;
+	background-image: url('RoulleteLogo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50px;
+}
+.Seanhero {
+	height: 300px;
+	background-image: url('SeanHTML.JPG');
+    background-repeat: no-repeat;
+    background-size: 10% 100%;
+    background-position: right;
+    border-radius: 50px;
+}
+.FormBugs {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Contact {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+table {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	padding: 8px;
+	border: 1px solid lightgray;
+	width: 100%;
+	box-shadow: #232d4c 0px 3px 8px;
+    background-color: #3399cc;
+    color: #0f0a15;
+    margin-bottom: 15px;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #000000;
+	text-align: left;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+	padding: 0.5em;
+}
+.GameTitles {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Gameupdate {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.Gameupdate2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #333333;
+}
+.Video {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.IndexTitle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.IndexSubTitle {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.IndexBody {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.contain1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #021171 3px solid;
+    background-color: #575966;
+}
+.CreativeVault {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Description {
+    text-align: left;
+    font-size: 16px;
+    margin: 10px;
+    text-indent: 20px;
+}
+.Table2 {
+    margin-right: 200px;
+}
+.GithubLink {
+    text-align: center;
+    margin-bottom: 20px;
+}
+video {
+	margin: 2em;
+	width: 600px;
+	height: 400px;
+    border-radius: 50px;
+}
+
+form, textarea {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 1.5em;
+}
+form label {
+	font-weight: bold;
+}
+form input, form textarea {
+	display: block;
+	width: 600px;
+	padding-bottom: 1.5em;
+}
+form input[type="submit"] {
+    background-color: #1e2972;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 4px;
+}

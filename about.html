@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="About" content="This page provides contact information and a form to report bugs or ask questions.">
+    <title>Creative Vault</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header>
+    <div class="CreativeVault">Creative Vault</div>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="updates.html">Updates</a></li>
+        <li><a href="about.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <div class="FormBugs">Found A Bug? Have A Question?</div>
+        <div class="Contact">Contact Me Today!</div>
+            <form name="Found A bug?" method="post" action="#">   
+                <label for="fname">Platform (Steam, GitHub): </label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">IDName (Steam, GitHub): </label>
+                <input type="text" id="lname" name="lname" required>
+                
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="comments">Comments: </label>
+                <textarea id="comment" name="comments" rows="4" cols="50"></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+    </section>
+</main>
+<div class="footer"><footer>Copyright © 2025 Creative Vault</footer></div>
+</body>
+</html>
