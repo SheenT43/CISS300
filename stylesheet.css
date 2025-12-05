@@ -1,5 +1,8 @@
 html, body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 header {
 	text-align: center;
@@ -17,6 +20,9 @@ body {
     margin: 0;
     padding: 0;
 	color: #b4d0fa;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 h1 {
     text-align: center;
@@ -61,6 +67,9 @@ section {
 main {
 	padding: 1px 20px 20px 30px;
 	padding-left: 30px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 }
 .breadhero {
 	height: 300px;
@@ -116,6 +125,7 @@ table {
     background-color: #3399cc;
     color: #0f0a15;
     margin-bottom: 15px;
+    table-layout: fixed;
 }
 td, th {
 	padding: 0.5em;
@@ -156,7 +166,7 @@ td {
     text-align: center;
     font-size: 14px;
     color: #cccccc;
-    margin-top: 20px;
+    margin-top: auto;
     padding: 10px;
     border-top: 1px solid #333333;
 }
@@ -232,5 +242,4 @@ form input[type="submit"] {
     padding: 0.5em 2em;
     border: none;
     border-radius: 4px;
-
 }
